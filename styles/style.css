@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+table.flashcard {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 90%;
+  height: 60px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.flashcard td, table.flashcard th {
+  border: 2px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.flashcard tbody td {
+  font-size: 15px;
+  font-weight: bold;
+}
+table.flashcard tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.flashcard tfoot td {
+  font-size: 14px;
+}
+table.flashcard tfoot .links {
+  text-align: right;
+}
+table.flashcard tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
