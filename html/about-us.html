@@ -16,31 +16,47 @@
                 <a href="about-us.html">About Us</a>
             </nav>
         </header>
-        <div class="hero">
-            <section id="about-us">
-            <h1>About Us</h1>
-            <p>At ¡Hola Básico!, we believe learning Spanish should be fun, simple, and accessible. Our goal is to help you speak confidently using quick, real-life lessons that fit your schedule.</p>
-            <img src="/images/about-us.png" alt="Woman teaching spanish">
-        </section>
-
-        <section id="our-story">
-            <h1>Our Story</h1>
-            <p>We started ¡Hola Básico! to make language learning less boring and more practical. Instead of memorizing long word lists, we focus on phrases you'll actually use every day.</p>
-        </section>
-
-        <section id="what-we-offer">
-            <img src="/images/what-we-offer.png" alt="Man using laptop">
-            <h1>What We Offer</h1>
-            <p>Our flashcard lessons teach useful Spanish phrases and cultural tips. Whether you're learning for travel, work, or fun we're here to help you reach your goals.</p>
-        </section>
-
+        <div id="hero">
+            <section class="left">
+                <h1>About Us</h1>
+                <p>At ¡Hola Básico!, we believe learning Spanish should be fun, simple, and accessible. Our goal is to help you speak confidently using quick, real-life lessons that fit your schedule.</p>
+            </section>
+            <section class="right">
+                <img src="/images/about-us.png" alt="Woman teaching spanish">
+            </section>
         </div>
+        
+        <div id="our-story">
+            <section class="left">
+                <h1>Our Story</h1>
+                <p>We started ¡Hola Básico! to make language learning less boring and more practical. Instead of memorizing long word lists, we focus on phrases you'll actually use every day.</p>
+            </section>
+        </div>
+
+        <div id="what-we-offer">
+            <section class="right">
+                <img src="/images/what-we-offer.png" alt="Man using laptop">
+            </section>
+            <section class="left">
+                <h1>What We Offer</h1>
+                <p>Our flashcard lessons teach useful Spanish phrases and cultural tips. Whether you're learning for travel, work, or fun we're here to help you reach your goals.</p>
+            </section>
+        </div>
+
         <footer>
-            <img src="../images/instagram-logo.png" alt="instagram logo">
-            <img src="../images/facebook-logo.png" alt="facebook logo">
-            <label for="email">Stay Connected</label>
-            <input type="email" name="email" id="email-box">
-            <input type="button" value="Send">
+            <div id="media">
+                <a href="https://www.instagram.com">
+                    <img src="../images/Instagram-logo.png" alt="instagram logo">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="../images/facebook-logo.png" alt="facebook logo">
+                </a>
+            </div>
+            <div id="input">
+                <label for="email">Stay Connected</label>
+                <input id="email-box" type="email" name="email" placeholder="Your email...">
+                <input id="send" type="button" value="Send">
+            </div>
         </footer>
     </div>
 </body>

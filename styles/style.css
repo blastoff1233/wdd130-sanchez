@@ -72,6 +72,9 @@ nav :hover {
 .left {
   margin: 0 100px;
 }
+.left p {
+  font-size: 2em;
+}
 
 #hero img {
   width: 80%;
@@ -130,6 +133,7 @@ ul li:before {
 }
 
 footer {
+  width: 100%;
   background-color: var(--primary-color);
   display: grid;
   grid-template-columns: 1fr 1fr;
