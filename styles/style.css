@@ -1,5 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --primary-color: #BF211E  ;
+  --secondary-color: #333745 ;
+  --accent1-color: #F0EBD8;
+  --accent2-color: #03B5AA;
 
+  --heading-font: "Libre Baskerville", sans-serif;
+  --paragraph-font: "Poppins", Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--accent1-color);
+  margin: 0;
+}
+
+/* #content {
+    line-height: 20px;
+} */
+header {
+  display: grid;
+  grid-template-columns: 180px auto 400px 20px;
+}
+
+header img {
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+nav {
+  grid-column: 3;
+  display: flex;
+  
+  justify-content: space-around;
+  height: 70px;
+}
+
+nav a {
+  font-size: 1.3em;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+nav :hover {
+  text-decoration: underline;
+}
+
+#content h1 {
+  font-size: 5em;
+  font-family: var(--heading-font);
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.left {
+  margin: 0 100px;
+}
+
+#hero img {
+  width: 80%;
+  margin: 0 auto;
+}
+#why-learn {
+  background-color: var(--accent2-color);
+}
+#why-learn p {
+  margin-top: 0;
+}
 
 
 
