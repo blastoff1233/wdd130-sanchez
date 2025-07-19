@@ -110,3 +110,9 @@ table.flashcard tfoot .links a{
   padding: 2px 8px;
   border-radius: 5px;
 }
+#about-us img{
+  float:right;
+}
+#what-we-offer img{
+  float:left;
+}
