@@ -20,7 +20,7 @@
             <section class="left">
                 <h1>Start Speaking Spanish with Confidence!</h1>
                 <h3>Quick and fun lessons using flashcards and real-life phrases.</h3>
-                <button>Start Learning Now</button>
+                <button id="start-learning">Start Learning Now</button>
             </section>
             <section class="right">
                 <img src="images/hero.png" alt="image of a Spanish speaking female">
@@ -36,23 +36,31 @@
             </ul>
         </div>
         <div id="sample">
-            <p>Try a Sample!</p>
+            <p><b>Try a Sample!</b></p>
             <table class="flashcard">
                 <tbody>
                     <tr>
-                        <td>¡Hola!</td>
+                        <td class="red">¡Hola!</td>
                         <td>Hello!</td>
                     </tr>
                 </tbody>
             </table>
-            <button>Start here</button>
+            <button id="start-here">Start here</button>
         </div>
         <footer>
-            <img src="images/instagram-logo.png" alt="instagram logo">
-            <img src="images/facebook-logo.png" alt="facebook logo">
-            <label for="email">Stay Connected</label>
-            <input type="email" name="email" id="email-box">
-            <input type="button" value="Send">
+            <div id="media">
+                <a href="https://www.instagram.com">
+                    <img src="images/instagram-logo.png" alt="instagram logo">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="images/facebook-logo.png" alt="facebook logo">
+                </a>
+            </div>
+            <div id="input">
+                <label for="email">Stay Connected</label>
+                <input id="email-box" type="email" name="email" placeholder="Your email...">
+                <input id="send" type="button" value="Send">
+            </div>
         </footer>
     </div>
 </body>

@@ -36,7 +36,18 @@ nav {
   justify-content: space-around;
   height: 70px;
 }
-
+#start-learning {
+  margin: 15px;
+  margin-top: 30px;
+  width: 400px;
+  height: 65px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  border: none;
+  color: var(--accent1-color);
+  font-family: var(--paragraph-font);
+  font-size: 1.25em;
+}
 nav a {
   font-size: 1.3em;
   color: black;
@@ -68,31 +79,124 @@ nav :hover {
 }
 #why-learn {
   background-color: var(--accent2-color);
+  text-align: center;
+  padding: 20px;
 }
 #why-learn p {
-  margin-top: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+ul {
+  color: var(--accent1-color);
+  list-style-type: none; 
+  margin: 0 auto; 
+  padding-left: 0;
+  text-align: left;
+  width: 450px;
+  font-size: 1.4em;
+
+}
+ul li {
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
+ul li:before {
+  content: "✓";
+  padding-right: 5px;
+  color: var(--accent1-color); 
+}
+#sample {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+}
+#sample p {
+  font-size: 2em;
+  font-family:var(--paragraph-font);
+}
+#start-here {
+  margin: 15px;
+  margin-top: 30px;
+  width: 400px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  border: none;
+  color: var(--accent1-color);
+  font-family: var(--paragraph-font);
+  font-size: 1.25em;
+}
 
-
+footer {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  padding: 20px;
+}
+#media {
+  grid-column: 1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#media img {
+  margin: 10px;
+}
+#input {
+  grid-column: 2;
+  width: 315px;
+  margin: 0 auto;
+  font-size: 1.3em;
+  font-family: var(--paragraph-font);
+}
+#input label {
+  color: var(--accent1-color);
+}
+#email-box {
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 15px;
+  background-color: var(--accent1-color);
+}
+#send {
+  width: 65px;
+  height: 30px;
+  background-color: var(--accent2-color);
+  border-radius: 15px;
+  border: none;
+  color: var(--accent1-color);
+  font-family: var(--paragraph-font);
+}
 
 
 
 table.flashcard {
-  border: 1px solid #1C6EA4;
-  background-color: #EEEEEE;
-  width: 90%;
-  height: 60px;
+  background-color: var(--accent1-color);
+  width: 100%;
+  height: 80px;
   text-align: center;
   border-collapse: collapse;
 }
 table.flashcard td, table.flashcard th {
-  border: 2px solid #AAAAAA;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
   padding: 3px 2px;
 }
 table.flashcard tbody td {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: bold;
+  font-family: var(--paragraph-font);
+}
+table.flashcard tbody td.red {
+  color: var(--primary-color);
 }
 table.flashcard tr:nth-child(even) {
   background: #D0E4F5;
@@ -108,7 +212,6 @@ table.flashcard tfoot .links a{
   background: #1C6EA4;
   color: #FFFFFF;
   padding: 2px 8px;
-  border-radius: 5px;
 }
 #about-us img{
   float:right;
